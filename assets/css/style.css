@@ -1,7 +1,7 @@
 :root {
     --darkgray-color: #0F0F0F;
     --white-color: #FFFFFF;
-    --invertido: #c0c0c0;
+    --gray-color: #c0c0c0;
 }
 
 * {
@@ -38,6 +38,7 @@ form input {
     font-size: 24px;
     height: 50px;
     padding: 0 20px;
+    border-radius: 10px;
 }
 
 form input:focus {
@@ -53,10 +54,11 @@ form button {
     height: 50px;
     cursor: pointer;
     margin-top: 30px;
+    border-radius: 10px;
 }
 
 form button:hover{
-    background: var(--invertido);
+    background: var(--gray-color);
 }
 
 form button:active{
@@ -66,8 +68,10 @@ form button:active{
 .paragrafo-resultado, .erro {
     background-color: limegreen;
     padding: 10px 20px;
+    border-radius: 10px;
 }
 
 .erro {
     background-color: red;
+    border-radius: 10px;
 }
